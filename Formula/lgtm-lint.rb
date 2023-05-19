@@ -7,7 +7,7 @@ class LgtmLint < Formula
   sha256 "90ce1c8b719e276d05218d2737f77248fe336708297b7c91ebdc87630d5104f5"
   license "Unlicense"
 
-  depends_on "python3"
+  depends_on "python@3.11"
 
   def install
     virtualenv_install_with_resources
